@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #9CCD62;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    grid-column: span 2;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #d1ddc3;
+    border-radius: 8px 8px 0 0;
+    color: #fff;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #9CCD62;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #9CCD62;
+}
+
+header p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Contact Info Styles */
+.contact-info {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    color: #9CCD62;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact-info li svg {
+    margin-right: 10px;
+    color: #9CCD62;
+}
+
+/* Section Styles */
+.section {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 28px;
+    margin: 0;
+    color: #9CCD62;
+}
+
+.section-content {
+    color: #555;
+}
+
+.section-content p {
+    margin-bottom: 10px;
+}
+
+/* Skill List Styles */
+.skill-list {
+    color: #555;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-list li {
+    background-color: #9CCD62;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.skill-list li:last-child {
+    margin-right: 0;
+}
+
+/* Additional Styling */
+body {
+    color: #333;
+}
+
+.container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    color: #9CCD62;
+}
+
+.skill-list li {
+    background-color: #9CCD62;
+    color: #fff;
+}
